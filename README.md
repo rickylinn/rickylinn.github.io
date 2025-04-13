@@ -1,1 +1,1 @@
-# freddylynn.github.io
+# rickylinn.github.io
