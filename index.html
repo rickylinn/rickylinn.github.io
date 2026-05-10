@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+    <title>Linn Htet - Software Engineer</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                    <img src="./assets/png/ricky.png" alt="profile_image" class="header__logo-img"/>
+                </div>
+                <span class="header__logo-sub">LINN HTET</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#home" class="header__link">About Me</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#projects" class="header__link">Projects</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#footer" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont"><img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu"/>
+                    <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none"/>
+                </div>
+            </div>
+        </div>
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#home" class="header__link">About Me</a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#projects"> Projects </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#footer"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home-hero" id="home">
+        <div class="home-hero__content">
+            <h1 class="heading-primary">Automation Software Engineer</h1>
+            <div class="home-hero__info">
+                <p class="text-primary">
+                    Automation Software Engineer with strong expertise in PLC programming, SCADA systems, and IoT integration, combined with hands-on experience in traditional software development. Skilled in designing reliable control systems while also developing software solutions that enhance system functionality and data visibility. Passionate about bridging industrial automation with modern software technologies to deliver scalable, efficient, and future-ready solutions.
+                </p>
+            </div>
+            <div class="home-hero__cta">
+                <a href="./#projects" class="btn btn--bg">Projects</a>
+            </div>
+        </div>
+        <div class="home-hero__mouse-scroll-cont">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects sec-pad" id="projects">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-bg">
+                <span class="heading-sec__main">Projects</span>
+            </h2>
+
+            <div class="projects__content">
+                <!-- Exeo Global -->
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/p1-exeo/home.png" alt="EXEO Global Project Screenshot" class="projects__row-img" loading="lazy"/>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">01. EXEO GLOBAL (BMS & iBMS System)</h3>
+                        <p class="projects__row-content-desc">
+                            Design and implementation of Building Management System (BMS) and integrated BMS (iBMS) for centralized monitoring and control of building services. The system includes FCU and ventilation fan control, intelligent lighting automation, and integration of essential services such as lifts, fire alarm (FA), and CCTV, providing enhanced operational efficiency, energy management, and system visibility.
+                        </p>
+                        <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr">View More</a>
+                    </div>
+                </div>
+
+                <!-- BCA Academy -->
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/p2-bca/home.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"/>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">02. BCA Academy (DCIM SYSTEM)</h3>
+                        <p class="projects__row-content-desc">
+                            Redundancy Data Center Infrastructure Management (DCIM) system integrating both OT and IT environments for comprehensive monitoring and control. The solution includes energy tracking, asset management, and SS564 Green Mark report calculation to support sustainability compliance and efficient data center operations.
+                        </p>
+                        <a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr">View More</a>
+                    </div>
+                </div>
+
+                <!-- SINMIX -->
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/p3-sinmix/home.png" alt="Software Screenshot" class="projects__row-img" loading="lazy"/>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">03. SINMIX Batching Plant (Material Handling System)</h3>
+                        <p class="projects__row-content-desc">
+                            Automated material handling system for concrete batching operations, managing the transfer of raw materials such as sand and aggregates from hoppers to silos and batching units. The system ensures accurate material flow, process efficiency, and reliable batching performance.
+                        </p>
+                        <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr">View More</a>
+                    </div>
+                </div>
+
+                <!-- UMC -->
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/p4-umc/home.PNG" alt="Software Screenshot" class="projects__row-img" loading="lazy"/>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">04. UMC (Machine Monitoring System [LoRaWAN])</h3>
+                        <p class="projects__row-content-desc">
+                            Implementation of a wireless machine monitoring system using LoRaWAN technology for real-time tracking of machine status, faults, and operational conditions. The system enables remote monitoring, data acquisition, and integration with supervisory systems for improved maintenance and operational insight.
+                        </p>
+                        <a href="./project-4.html" class="btn btn--med btn--theme dynamicBgClr">View More</a>
+                    </div>
+                </div>
+
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img src="./assets/p5-minifmas/home.PNG" alt="Software Screenshot" class="projects__row-img" loading="lazy"/>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">05. Mini-FMAS (Embedded Controller Development)</h3>
+                        <p class="projects__row-content-desc">
+                            Development of a standalone embedded controller based on ARM platform for building facility monitoring applications. The controller supports Modbus TCP/RTU, MQTT communication, and Web Service APIs, with built-in alarm notification and a basic rule engine for flexible control logic and system integration.
+                        </p>
+                        <a href="https://linkwisetech.com/products/facility-monitoring-system/picobox/m-fmas/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer" id="footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Links</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/linnhtet/">
+                        <img
+                        class="main-footer__icon"
+                        src="./assets/png/linkedin-ico.png"
+                        alt="icon"
+                        />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/rickylinn">
+                        <img
+                        class="main-footer__icon"
+                        src="./assets/png/github-ico.png"
+                        alt="icon"
+                        />
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer__row main-footer__row-2">
+                <h4 class="heading heading-sm text-lt">LINN HTET</h4>
+                <p class="main-footer__short-desc">linn.htet@outlook.com</p>
+                <p class="main-footer__short-desc">+65 8266 8637</p>
+                <p class="main-footer__short-desc">
+                    <a href="https://rickylinn.github.io/resume.pdf">Download Resume</a>
+                    </p>
+            </div>
+            </div>
+
+            <div class="main-footer__lower">&copy; Copyright 2026. Crafted by Linn Htet</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

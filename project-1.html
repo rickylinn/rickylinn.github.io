@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <title>Linn Htet - Software Engineer</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__content">
+		<div class="header__logo-container">
+			<div class="header__logo-img-cont">
+			<img src="./assets/png/ricky.png" alt="Logo" class="header__logo-img">
+			</div>
+			<span class="header__logo-sub">LINN HTET</span>
+		</div>
+
+		<div class="header__main">
+			<ul class="header__links">
+			<li><a href="./index.html#about" class="header__link">About Me</a></li>
+			<li><a href="./index.html#projects" class="header__link">Projects</a></li>
+			<li><a href="./index.html#contact" class="header__link">Contact</a></li>
+			</ul>
+
+			<div class="header__main-ham-menu-cont">
+			<img src="./assets/svg/ham-menu.svg" class="header__main-ham-menu" alt="Menu">
+			<img src="./assets/svg/ham-menu-close.svg" class="header__main-ham-menu-close d-none" alt="Close">
+			</div>
+		</div>
+		</div>
+	</header>
+
+	<section class="project-cs-hero">
+		<div class="project-cs-hero__content">
+		<h1 class="heading-primary">EXEO GLOBAL (BMS & iBMS System)</h1>
+		<div class="project-cs-hero__info">
+			<p class="text-primary">
+			Design and implementation of Building Management System (BMS) and integrated BMS (iBMS) for centralized monitoring and control of building services, including FCU, ventilation fan, intelligent lighting, lift, fire alarm, and CCTV systems.
+			</p>
+		</div>
+		<div class="project-cs-hero__cta">
+			<a href="./index.html#projects" class="btn btn--bg">Projects</a>
+		</div>
+		</div>
+	</section>
+
+	<section class="project-details">
+		<div class="main-container">
+			<div class="project-details__content">
+				<div class="project-details__content-main">
+
+				<div class="project-details__desc">
+					<h3 class="project-details__content-title">Project Overview</h3>
+					<p class="project-details__desc-para">
+					This project involved the implementation of a Building Management System (BMS) and integrated BMS (iBMS) to provide centralized control and monitoring for various building services.
+					</p>
+					<p class="project-details__desc-para">
+						<strong>Lighting Control System</strong> The lighting control system incorporates DALI lighting, 0–10V dimming, and relay-based on/off control. Advanced control strategies include time-based scheduling, AI camera-based occupancy tracking, and motion detection to automatically adjust lighting levels.
+					</p>
+					<p class="project-details__desc-para">
+						<strong>Mobile Application</strong> A customized mobile application was implemented to deliver personalized control for executive spaces, including CEO rooms. Users can seamlessly manage lighting, HVAC, and motorized blinds through an intuitive interface, with role-based access ensuring flexibility, comfort, and enhanced user experience.
+					</p>
+					<p class="project-details__desc-para">
+						<strong>HVAC Control System</strong> The HVAC system consists of VRV-based FCUs and outdoor condensing units, integrated via BACnet/IP for high-level communication and control. Intelligent control algorithms utilize occupancy data from AI cameras to dynamically adjust fan speeds and env temperature based on the number of occupants. This ensures energy-efficient operation while maintaining indoor comfort. The BACnet integration also enables detailed monitoring of equipment status, performance, and fault conditions.
+					</p>
+					<p class="project-details__desc-para">
+						<strong>Air Quality Control System</strong> The air quality control system operates in coordination with mechanical ventilation (MV) fans and indoor air quality (IAQ) sensors. Control algorithms continuously monitor environmental conditions and regulate ventilation to maintain optimal air quality levels within the space.
+					</p>
+					<p class="project-details__desc-para">
+						<strong>ELV Systems Integration</strong> Other ELV services, including lift, fire alarm, and CCTV systems, are integrated into the platform for centralized monitoring. The system provides real-time status updates, event logging, and automated notifications via email and SMS, ensuring timely response to critical events.
+					</p>
+				</div>
+
+				<div class="project-details__tools-used">
+					<h3 class="project-details__content-title">Tools, Technologies & Communication Protocol</h3>
+					<div class="skills">
+					<div class="skills__skill">DALI Lighting</div>
+					<div class="skills__skill">AI Camera Integration</div>
+					<div class="skills__skill">DDC Programming</div>
+					<div class="skills__skill">HVAC Control</div>
+					<div class="skills__skill">IAQ Sensor</div>
+					<div class="skills__skill">Mobile App</div>
+					<div class="skills__skill">BACnet IP</div>
+					<div class="skills__skill">OPC UA</div>
+					<div class="skills__skill">SNMP</div>
+					<div class="skills__skill">ONVIF</div>
+					<div class="skills__skill">Modbus TCP/RTU</div>
+					<div class="skills__skill">Web API</div>
+					</div>
+				</div>
+
+				<div class="project-details__links">
+					<h3 class="project-details__content-title">Project Gallery</h3>
+					<div class="project-details__showcase-img-cont">
+					<img src="./assets/p1-exeo/systemarchi.png" class="project-details__showcase-img" alt="EXEO Project Image 1">
+					<img src="./assets/p1-exeo/panel.jpg" class="project-details__showcase-img" alt="EXEO Project Image 2">
+					<img src="./assets/p1-exeo/tnc.jpg" class="project-details__showcase-img" alt="EXEO Project Image 3">
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="project-details__lightbox" id="lightbox">
+		<span class="project-details__lightbox-close" id="lightbox-close">&times;</span>
+		<button class="project-details__lightbox-btn project-details__lightbox-btn--prev" id="lightbox-prev">&#10094;</button>
+		<img class="project-details__lightbox-img" id="lightbox-img" src="" alt="Preview">
+		<button class="project-details__lightbox-btn project-details__lightbox-btn--next" id="lightbox-next">&#10095;</button>
+	</div>
+
+	<footer class="main-footer">
+		<div class="main-container">
+		<div class="main-footer__upper">
+			<div class="main-footer__row">
+			<h2 class="heading heading-sm main-footer__heading-sm"><span>Social</span></h2>
+			<div class="main-footer__social-cont">
+				<a href="#"><img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn"></a>
+				<a href="#"><img class="main-footer__icon" src="./assets/png/github-ico.png" alt="GitHub"></a>
+				<a href="#"><img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="Twitter"></a>
+			</div>
+			</div>
+
+			<div class="main-footer__row">
+			<h4 class="heading heading-sm text-lt">Linn Htet</h4>
+			<p class="main-footer__short-desc">
+				Automation Software Engineer focused on industrial control systems, software development, and IoT integration.
+			</p>
+			</div>
+		</div>
+
+		<div class="main-footer__lower">
+			&copy; Copyright 2026. Crafted by Linn Htet
+		</div>
+		</div>
+	</footer>
+
+	<script src="./js/app.js"></script>
+</body>
+</html>
